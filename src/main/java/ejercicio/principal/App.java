@@ -1,4 +1,4 @@
-package ejercicio.Hibernate;
+package ejercicio.principal;
 
 /**
  * Hello world!
