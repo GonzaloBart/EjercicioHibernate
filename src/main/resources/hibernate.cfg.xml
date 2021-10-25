@@ -13,8 +13,6 @@
 
 		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 
-
-
 		<property name="hibernate.connection.url">jdbc:mysql://localhost/curso</property>
 
 		<property name="hibernate.connection.username">root</property>
@@ -51,11 +49,10 @@
 
 		<property name="hibernate.dbcp.maxWaitMillis">-1</property>
 
-		<mapping
-			resource="../java/ejercicio/entities/Departamento.hbm.xml" />
-
-		<mapping
-			resource="../java/ejercicio/entities/Empleado.hbm.xml" />
+		<mapping class="ejercicio.entities.Empleado" />
+		<mapping class="ejercicio.entities.Departamento" />
+		<!--<mapping resource="Empleado.hbm.xml" />
+		<mapping resource="Departamento.hbm.xml" />-->
 
 
 	</session-factory>

@@ -1,7 +1,7 @@
 package ejercicio.entities;
 
 // default package
-// Generated 23 Oct 2021, 18:15:01 by Hibernate Tools 4.3.5.Final
+// Generated 24 Oct 2021, 02:06:15 by Hibernate Tools 4.3.5.Final
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -61,7 +61,5 @@ public class Departamento implements java.io.Serializable {
 	public String toString() {
 		return "Departamento [codigo=" + codigo + ", codResponsable=" + codResponsable + ", nombre=" + nombre + "]";
 	}
-	
-	
 
 }

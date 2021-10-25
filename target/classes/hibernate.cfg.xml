@@ -8,12 +8,10 @@
 
 	<session-factory>
 
-		
-		<!-- <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>-->
+
+		<!-- <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property> -->
 
 		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-
-
 
 		<property name="hibernate.connection.url">jdbc:mysql://localhost/curso</property>
 
@@ -37,7 +35,7 @@
 
 		<!-- Drop and re-create the database schema on startup -->
 
-		<!-- <property name="hbm2ddl.auto">create-drop</property>-->
+		<!-- <property name="hbm2ddl.auto">create-drop</property> -->
 
 		<!-- dbcp connection pool configuration -->
 
@@ -50,6 +48,12 @@
 		<property name="hibernate.dbcp.minIdle">5</property>
 
 		<property name="hibernate.dbcp.maxWaitMillis">-1</property>
+
+		<mapping class="ejercicio.entities.Empleado" />
+		<mapping class="ejercicio.entities.Departamento" />
+		<!--<mapping resource="Empleado.hbm.xml" />
+		<mapping resource="Departamento.hbm.xml" />-->
+
 
 	</session-factory>
 

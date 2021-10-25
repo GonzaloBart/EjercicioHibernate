@@ -1,0 +1,8 @@
+Insert-Empleado 1
+Insert-Departamento 2
+Consult-Empleado 3
+Consult-Departamento 4
+Update-Empleado 5
+Update-Departamento 6
+Delete-Empleado 7
+Delete-Departamento 8
